@@ -129,3 +129,45 @@ span a {
     width: 50%;
     height: 50%;
 }
+
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: beige;
+    width: 800px;
+    text-align: center;
+    /* border: 2px green solid; */
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#social {
+    margin: auto;
+    display: flex;
+    /* border: 3px red solid; */
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    list-style-type: none;
+}
+
+.fa {
+    color: rgb(94, 168, 94);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: rgb(66, 110, 66);
+}
+
+.footer p {
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
